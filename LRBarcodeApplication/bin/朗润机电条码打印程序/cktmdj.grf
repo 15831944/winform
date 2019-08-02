@@ -1,0 +1,322 @@
+﻿Object Report
+	Version='6.0.0.2'
+	Object Font
+		Name='宋体'
+		Size=105000,0
+		Weight=400
+		Charset=134
+	End
+	Object Printer
+		Size=256
+		Width=9.3
+		Height=5.9
+		LeftMargin=0
+		TopMargin=0
+		RightMargin=0
+		BottomMargin=0
+	End
+	Object DetailGrid
+		Object Border
+			Styles=[]
+		End
+		Object Recordset
+			Items Field
+				Item
+					Name='条码'
+				End
+				Item
+					Name='客户名称'
+				End
+				Item
+					Name='物料编码'
+				End
+				Item
+					Name='物料名称'
+				End
+				Item
+					Name='规格型号'
+				End
+				Item
+					Name='数量'
+				End
+				Item
+					Name='计量单位'
+				End
+				Item
+					Name='供应商'
+				End
+				Item
+					Name='组别'
+				End
+				Item
+					Name='内部物料编码'
+				End
+				Item
+					Name='生产日期'
+				End
+				Item
+					Name='送货日期'
+				End
+			End
+		End
+		Items Column
+			Item
+				Name='Column1'
+				Width=9.28688
+			End
+		End
+		Object ColumnContent
+			Height=5.79438
+			Items ColumnContentCell
+				Item
+					Column='Column1'
+					FreeCell=T
+					Items Control
+						Item
+							Type=FreeGrid
+							Name='FreeGrid1'
+							Left=0.2
+							Top=0.079375
+							Object Border
+								Styles=[DrawLeft|DrawTop|DrawRight|DrawBottom]
+							End
+							RowCount=8
+							Items FreeGridColumn
+								Item[1]
+									Width=2.06375
+								End
+								Item[2]
+									Width=2.35479
+								End
+								Item[3]
+									Width=1.85208
+								End
+								Item[4]
+									Width=1.05833
+								End
+								Item[5]
+									Width=1.53458
+								End
+							End
+							Items FreeGridRow
+								Item[1]
+									Height=0.846667
+								End
+								Item[8]
+									Height=1.27
+								End
+							End
+							Items FreeGridCell
+								Item[1,1]
+									FreeCell=T
+								End
+								Item[1,2]
+									Text='[#客户名称#]'
+									ColSpan=4
+								End
+								Item[2,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='物料编码'
+								End
+								Item[2,2]
+									Text='[#物料编码#]'
+									ColSpan=4
+								End
+								Item[3,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='物料名称'
+								End
+								Item[3,2]
+									Text='[#物料名称#]'
+									ColSpan=4
+								End
+								Item[4,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='规格型号'
+								End
+								Item[4,2]
+									Text='[#规格型号#]'
+									ColSpan=4
+								End
+								Item[5,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='数    量'
+								End
+								Item[5,2]
+									Text='[#数量#]'
+									ColSpan=2
+								End
+								Item[5,4]
+									Text='[#计量单位#]'
+									ColSpan=2
+								End
+								Item[6,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='供应商'
+								End
+								Item[6,2]
+									Text='重庆朗润机电'
+									ColSpan=2
+								End
+								Item[6,4]
+									Text='[#组别#]'
+								End
+								Item[6,5]
+									Text='[#内部物料编码#]'
+								End
+								Item[7,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='生产日期'
+								End
+								Item[7,2]
+									Text='[#生产日期#]'
+								End
+								Item[7,3]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='送货日期'
+								End
+								Item[7,4]
+									Text='[#送货日期#]'
+									ColSpan=2
+								End
+								Item[8,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='装箱条码'
+								End
+								Item[8,2]
+									FreeCell=T
+									Items Control
+										Item
+											Type=Barcode
+											Name='Barcode1'
+											Left=0.396875
+											Top=0.15875
+											Width=6.00604
+											Height=1
+											BarcodeType=Code128Auto
+											Text='[#条码#]'
+											Object Font
+												Name='宋体'
+												Size=67500,0
+												Weight=400
+												Charset=134
+											End
+										End
+									End
+									ColSpan=4
+								End
+							End
+						End
+						Item
+							Type=PictureBox
+							Name='PictureBox1'
+							Left=0.211667
+							Top=0.396875
+							Width=1.98438
+							Height=0.608542
+							Picture=-4038
+iVBORw0KGgoAAAANSUhEUgAAAD0AAAAaCAYAAAAEy1RnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA9bSURBVFhH5Vh3
+VJXXlr+XIhjpHRUEpAiXpiCGKBFQbEnU+J5Zib5xMtEooNEYzcvzRY0KithLxIZGg4ga60PQZ0OKBSTGit1obKhIv7385ne+C05mfDN/zFrzx6y319rrfGefvfc5++xy
+9r0y/BOCZLTJ+Eqa/M+gJzaaPyVoacP/CxB7/W/B2Db+V/gPutnTRhNu376BQ4W78bei/dh/8DAO7juCwwcO49C+3djzw9+Qt3UHfvppOw4eOop9+05zPI5Dhw6jcH8x
+Du3Zj13bt2LPjlwUbMvFrq0FnG/Hrp1LsSt/JQryv0fBzlUoyNuEgh9/QMGOjcTN5M1HwfY80rdyJOaRnrcBu7ZRdtuONt71yM/fgLyd1J23Gbu3baJu6snLxY78LRLu
+pL7deTnYlbeeuI66tlOWPDvXYNvmzTi09zC0Wh0NNUnmvg7vpSvmQmYhg4W1DFaWMshkMsiJ4d07YcQwL/zL2O7oGe1Iug2xG9dcJH7BpwjqgCXzQ5G1oAsWz/fDolkK
+LJ4TgMULXLB4njcy53dGRoY3Mr4LQcacHvz2NOOcUNICkJnhhoXzvbBwnh8y5wYjU9DmdSXNjBkZHpi3yBUZ87thIeUXzQ7Bwu/8kLGgK+Yv8KGOQCwmLes7HywiPVNg
+BmWzPDE/wwepn4fixfPHbZb+zugly1fQACt0kNtzlKNPtD09FY3auhgoDZHQG8bho1E+kpEdZW6wse4Ea1uz0cMHe1HDGKKC2Iv4DjGYGETsS4wm9gF0oxlVQ/jdnSjW
+3yb2ILoSfeiI/ozsUfzuTfQjCrkYouANpZ/EXMjEkzeubU2gmBMRRhT0EKI4i6Al4O9H4vDsyQ1+m8Gc09Bg2Yr1sJQ5wUJmgT+NdceruuFobu6H82e9UXzEFkWH/DFh
+jBdC/WxhI7OEtcwOHW2dIJNbY2iiD1TKgWg2OEFrEAcW6E0UBiVApXVGayvnhkGci4OEQK8L5BhKjCBGQ9viCo2SxhvFpQkjPchPIzQRUNfzQtRRbfziMjyhbfSEsd4X
+UIkLDCC6mdcNiRy9odXYQtMcAlNrDI7ujUPtk1ukm6HN0zoszc6h1ywwdKADlKqReFkXhgtV3qi55oN79wLw7Jm45WTUvopHzoYA+PtYooPMgTL2GJbsjlZtBK+uM9at
+DUTa576YNsURkya4Y2NOPzQ29Uf9qxDs/CEEu7dE48f1USgpisfB/J7YkROPPesTUf84gfrDcKm6JzauVuBAQU9cOjMUV8+EwaiMxqkDQQzbYGRl90BxISNIHQyT0hf3
+r8Ri/YpAbN3QDRuWx2F95gCcPBgNjSoa6hZeijIWxQXxeP70tmSpgDajX2FZ1mp0Yj4XHxVh4Y+nT3xxsSIMxw56YP+ubliZ2QXrsgOhahXhOQwl5Qno4t1BSoWRg1zo
+6TgYEIW534RIkdDZzgG9ws3pMG1SDzx6/Ef07SPjmgydiLNnRiEl3onRJUNCpAwNtcORtyUM7vYyOHewhL+7Ddxs5EgfZ8/9emL1YhfYWFhRnw1iFA5oec4UMoTi3NF4
++Lq+Je3j62EHfw9r2LPW5CyNgNHYj/6MRdEeevrpG57WYMmC9YgMtEPti0S8rHfA6WNuuPnzQLQ2ihx5D7lrEiXF//ahG+peiRDsj8XZkRJtVJIXjI2joFUHobV5EPr3
+dMXo9ztDo5mMadN90YGHOFPdF2d/TqTBVuj/9ltoUH6E3Xv7wNNFjqrqBNy5k0CDLRARbo/Kywm4cK0fgnxtMXqoC/eKQ2NDEoaO6AzXru5MKznKjjKXTQoYmU5r1yt4
+DjnyClNQ82gY7DrKMKSvO9SqJJhMoSjaH4bnz24KQyV4XciyFszHuzEOaG5KREOjL369/QFylr+Hfx3nitRUH6S81w0WNlaSZ44dEKHuj3t3e8PZxQKJ77jT6GEwqf2g
+0vVEXK+38NHIjuRJwfmSobCiTM6WENTcHw4HCzkGJ1pDi/dRVBwLX3c5fn2YgtxcX+kCN28Ip5w3X9XOuFAegvJC5rAuERfODcTwD5yQkzuQdUeGuTN60SBRJD2wY7sL
+5LzYP6X74S9zA9GRr8/UiZ4wmOhtnT+KdvXCi2d3yGuG10YvXvxnFilLPKntDZUmCp+O9pIOIdCaaNmBT5iNpXSLVX+n941doFXGI66vK+L7sYA1sEgp/dBMb8f0tsaI
+D2yoVYGr9KII52VL++DS5bFwkltgUKIl1IYEFBXGwc+1A27dGowsPk3icooP92JrokBTK4uXkYXMZK7WP+Qq4O8tx5iP/VlLmBJv26OuVRQ2BfJyIqVn1j/YiSlgjXiF
+P357lAy13h86ZR8U746jp9/IaROyl2TAUi7D0eMxqL6igB0V2/MtdrC1gi1DR8ZqLd7tP3/lB0MLK2SLMz2QgCFDutBwO1bT90nrAZUhAnHvdMLIkQ7UOxCHiyIlz+Tn
+h+PK9SFwpK4h9DTwBxQVJcOb4V1zJwXbN/eULnjtcvEEjSCmYEWmB/46pRO/hyI9zR0pA7wx85tghIe4w95OhrLzIs1Go2DLu5LsnkOf4qtpifC064ibd8QLEgi9RoHC
+vQrUvhnetVi6bBsFbTHyQ09U1wyBt4doThzh7uiAqZ9GYtZX7ijY68EoeJvPAIsdPaFtTUbvKEfEJzhC3USj1X1x8UocAgKckNTXD6WnPkRsrA28nCx483G4/1sMvBgp
+3RnSJUcmYUZqMjycZbj3NBq37ynQ1YlrnvYoLhqGA/tS4GIpx4SPO+PSL0MQFeKAvPwUKLWTMW5slGTk1EkK3L09Fn+dESLNv53dDyWlf4CdlQxjRvrh1vU+0OkiaXQs
+jX7D0/U0egcF7WBBb89fGouFS4fB0dERih7uLEjDySPe1Wgom+Nx55oHTFp//FzZB44d5UhK8oZexcZD1R8TxzmhA18Bt04yeBF9vRywLVc0K7HQGaKxOqsburtZo/Nb
+MvjQy4syg6A0ihrhiz35AQjwtIQjD+3AdBo+0Bt3bo7BsBRbdGTODk6yxao1obxEGVy5LnSMHeGFiABL+LjJEOovQ+XPvTBjmgccbWRY+BemCJ/Zwt19WL3fMFq0ocsh
+t5LDwpLFiof948e92KT0xviJ3XDtOt/MC8E48GMccrI9cfmSD3MyHp+M9uBFsTAN8WSljKTRzrhyMQjHynrhVFkQzpYE4c7DPixa7OpaRTX35Y+bSNy7EYWyEwrcuNkd
+OlNPtLbE8pVgI8FG5dfb76LwQG8cOx6Cxvok6DQfoOp8BE6fVODChVDcuReO0tJwnCnnW08dNddiced2DG7WROHm9Rg0tHZDQ0MEbl6OxdMHUazu3XHkpyjm9D8oZMtX
+ZkAu+m6GXwcb0V/L4MIbHT7KFhnz3LBojgv2bPdG3fN4NClHYFKaLyu5NVPABgNTvNhNseComKu6HjSyJzWKzimAhnhAqXaGtikCuuYo6FSiU+tCFKMT9GoPaBpjuR4C
+tZLPk0HkqejkvKBVBUHTxG7LKNpcc5emNdhyFB4UXVgvRg+rtLGt+zP68JJYYBtEy8tOT8+nlNX7yK7ebE7eMFqLZUuWSobK5HJWQldYtf2YWL1WPCEjYDIMRUNdEhuV
+cDYZoj8XP05EsyBDcnJnPvUfU42n1CnptCxGKso1s/q2sg/W8VtLY9QMYz0PoxEdFde0vJwWfrfGksY6oesGE9dMRragQl5JPYwOtJBX1SanZZpJ8mw/W/syzXgZOl6A
+mvIajmxvTcIBGl5CK6PPlIDj+yL/0Tutx5rV6+Dk5AxXF3e4uHjD3d0FHq6e9GIQxqf2wCefBKJvnCcLjwM68seGs7Mz3Dyd4eLqAkV4V3yRHoNpaf6Ymu6LtLRgTJ4Y
+jC+JX0wKQVpqKCan+yM9tTumpAVhMmlfpIZh8udhmCL40kKQPpH0tEBWaX9MmezDtUikTwjCVNKmTgzHlEmh1E1dE6gzNZj8pKeFUSdpEwO4XyDpPTA5NZDYnev+3Ccc
+qePDWPjCUVf3xGwqQTJao9Hi+fPnuHz5Mq5cuYJLly5J440bNaiquoTTp6tQVlaNC9VXSb+Gq1fFeAXXr19/zV9Wfo54AadLzxPFdyWxCqVl53HmbDXz8BzKK8zzsvLz
+/D6PUspUnK0i/5k2GvepqGzjOcdKfIY8Qo+QrUT5GaK0fo4yZ0k/K32b+YXuKpTzDKVllTh5SuisRMnpczz3JVZxHdvS3/2e1mg00uT/J/x3/5T8ZzCZTDAYzLyS0Uaj
+Eb/88gvWrVuHvXv3SvOSkhLMnj0beXl50Gq1qK6uRkVFBT1WKnn4xYsXyM7OxsaNG7muIf00li9fJo1Go4GbGHHt2lXefBmj5DTOnatgVa3j+inyq3Dw4D7MnDmd+5zg
+T9gG6q/E06ePeI5qyur5+12H85Vn8OjRA5w9Wy7JVlSUorHxFe7dv43Vq1egsPAg9Hotq/p5PH78CC9fvsCSJdnsLrOkucDi4iLq+I3y9dQr2dye08CmTZtYkJLx2Wef
+UXEj5syZg3379mH69OnMhzqsXbsWAwYM4JucREPKpbAODg7mxoWSvOAfNGgQDV8uzQWUlZWzYxtCmUQsWpSJlpYm6puGpqYGpswpDB06GHfv3kZt7VPqTiImY+XKdnkT
+jhwpYn2YhIULMxieWsya9Q2fp1s0vkyS/fbbWRKfWBcOOXbsOI1eglWrVknnunXrFoKCgiSbRPq2w2ujCwoKKLxQMsZgMCArK0vy9Ndffy15+sSJE0hPT8eMGTOkS6ip
+qUFCQoK0gU6n5w+GLRgzZiy+/36dFCkC6upeYerUaTT0Sxw4cIBe0SMzM4NGN/FiG7CCvYGAp0+f0OszsIA/enJzN0s0g4He1uswevRonDx5QqJlZy/mb/t7uHnzBvca
+g2nTppJqQk5ODiorq4iVPN9M0r+kYyr4y+0u1qxZi/HjJ+Dhw4eSDgGS0cJIcRCR7O1zYdipU6dw//59aa5SqVBfXy/xiUtQKpUM32u4ePEi1GoNw6cRKo737z/guk5C
+vd7AX2yNDN9miV/I1dbWSnShz/ytp7ya8g3S/i9fvpQuTfCKPBRRJ3gErbb2uVR/mpqaJec8ePBAWnv5so5R1CrtX1V1QboAlUot0ZRKtcQv9m8HyWghaE50g7SZmLeD
+oAtau/cEiEMKWjvoaCBT+HVNMRhMpOmJIrfNNAHteoXOdn1iTzEX0E4XtPZRgBjbvwW9nV+A+Wzi7JQltoNWo+eanpekk9Z+v+fr8P7nAeDfAZc4Nr85uNNgAAAAAElF
+TkSuQmCC
+						End
+					End
+					BorderCustom=T
+					Object Border
+						Styles=[]
+					End
+				End
+			End
+		End
+		Object ColumnTitle
+			Height=0
+			Items ColumnTitleCell
+				Item
+					GroupTitle=F
+					Column='Column1'
+					TextAlign=MiddleCenter
+					Text='Column1'
+				End
+			End
+		End
+	End
+End

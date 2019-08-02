@@ -1,0 +1,333 @@
+﻿Object Report
+	Version='6.0.0.2'
+	Object Font
+		Name='宋体'
+		Size=105000,0
+		Weight=400
+		Charset=134
+	End
+	Object Printer
+		Size=256
+		Width=9.3
+		Height=5.9
+		LeftMargin=0
+		TopMargin=0
+		RightMargin=0
+		BottomMargin=0
+	End
+	Object DetailGrid
+		Object Border
+			Styles=[]
+		End
+		Object Recordset
+			Items Field
+				Item
+					Name='条码'
+				End
+				Item
+					Name='客户名称'
+				End
+				Item
+					Name='物料编码'
+				End
+				Item
+					Name='物料名称'
+				End
+				Item
+					Name='规格型号'
+				End
+				Item
+					Name='数量'
+				End
+				Item
+					Name='计量单位'
+				End
+				Item
+					Name='供应商'
+				End
+				Item
+					Name='组别'
+				End
+				Item
+					Name='内部物料编码'
+				End
+				Item
+					Name='生产日期'
+				End
+				Item
+					Name='送货日期'
+				End
+			End
+		End
+		Items Column
+			Item
+				Name='Column1'
+				Width=9.2075
+			End
+		End
+		Object ColumnContent
+			Height=5.79438
+			Items ColumnContentCell
+				Item
+					Column='Column1'
+					FreeCell=T
+					Items Control
+						Item
+							Type=FreeGrid
+							Name='FreeGrid1'
+							Left=0.2
+							Top=0.132292
+							Object Border
+								Styles=[DrawLeft|DrawTop|DrawRight|DrawBottom]
+							End
+							RowCount=8
+							Items FreeGridColumn
+								Item[1]
+									Width=2.06375
+								End
+								Item[2]
+									Width=2.35479
+								End
+								Item[3]
+									Width=1.85208
+								End
+								Item[4]
+									Width=1.05833
+								End
+								Item[5]
+									Width=1.53458
+								End
+							End
+							Items FreeGridRow
+								Item[1]
+									Height=0.846667
+								End
+								Item[8]
+									Height=1.19063
+								End
+							End
+							Items FreeGridCell
+								Item[1,2]
+									Object Font
+										Name='华文中宋'
+										Size=120000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#客户名称#]'
+									ColSpan=4
+								End
+								Item[2,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='物料编码'
+								End
+								Item[2,2]
+									Object Font
+										Name='华文中宋'
+										Size=142500,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#物料编码#]'
+									ColSpan=4
+								End
+								Item[3,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='物料名称'
+								End
+								Item[3,2]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#物料名称#]'
+									ColSpan=4
+								End
+								Item[4,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='规格型号'
+								End
+								Item[4,2]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#规格型号#]'
+									ColSpan=4
+								End
+								Item[5,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='数    量'
+								End
+								Item[5,2]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#数量#]'
+									ColSpan=2
+								End
+								Item[5,4]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#计量单位#]'
+									ColSpan=2
+								End
+								Item[6,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='供应商'
+								End
+								Item[6,2]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='重庆朗润机电'
+									ColSpan=2
+								End
+								Item[6,4]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#组别#]'
+								End
+								Item[6,5]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#内部物料编码#]'
+								End
+								Item[7,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='生产日期'
+								End
+								Item[7,2]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#生产日期#]'
+								End
+								Item[7,3]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='送货日期'
+								End
+								Item[7,4]
+									Object Font
+										Name='华文中宋'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='[#送货日期#]'
+									ColSpan=2
+								End
+								Item[8,1]
+									Object Font
+										Name='宋体'
+										Size=105000,0
+										Bold=T
+										Charset=134
+									End
+									Text='装箱条码'
+								End
+								Item[8,2]
+									FreeCell=T
+									Items Control
+										Item
+											Type=Barcode
+											Name='Barcode1'
+											Left=0.396875
+											Top=0.132292
+											Width=6.00604
+											Height=1
+											BarcodeType=Code128A
+											Text='[#条码#]'
+											Object Font
+												Name='华文中宋'
+												Size=75000,0
+												Bold=T
+												Charset=134
+											End
+										End
+									End
+									ColSpan=4
+								End
+							End
+						End
+					End
+					BorderCustom=T
+					Object Border
+						Styles=[]
+					End
+				End
+			End
+		End
+		Object ColumnTitle
+			Height=0
+			Items ColumnTitleCell
+				Item
+					GroupTitle=F
+					Column='Column1'
+					TextAlign=MiddleCenter
+					Text='Column1'
+				End
+			End
+		End
+	End
+End
